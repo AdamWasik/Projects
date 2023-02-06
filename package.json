@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AdamWasik/Projects/issues"
   },
-  "homepage": "https://github.com/AdamWasik/Projects#readme"
+  "homepage": "https://github.com/AdamWasik/Projects#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
 }
