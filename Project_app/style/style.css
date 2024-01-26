@@ -60,6 +60,40 @@ nav a:hover {
     padding: 10px;
 }
 
+.main .cards {
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    color: #000000;
+}
+
+.card_01, .card_02, .card_03 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px #F23827 solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.cards h2 {
+    color: #73061A;
+    text-align: center;
+    padding-bottom: 5px;
+    }
+
+button {
+    margin-top: 15px;
+    background-color: #181E40;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+button a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .wrapper .footer{
     background-color: #181E40;
     /*background-image: linear-gradient(180deg, #181E40, #181E40 40%, #181E40 49%,*/
@@ -71,7 +105,7 @@ nav a:hover {
     line-height: 30px;
 }
 
-.footer a{
+.footer a {
     color: #ffffff;
     text-decoration: none;
 }
