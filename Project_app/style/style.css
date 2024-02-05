@@ -138,7 +138,15 @@ button a {
     padding: 0 10px;
     text-align: center;
     width: 100%;
+}
 
+.social_section h2 {
+    text-align-last: center;
+}
+
+.social_section img {
+    padding: 5px;
+    margin: 5px;
 }
 
 .menu_section_footer {
