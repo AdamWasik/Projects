@@ -7,6 +7,7 @@
 html {
     font-size: 14px;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 div.wrapper {
@@ -158,6 +159,90 @@ button a {
 .legal_section {
     text-align: center;
     width: 100%;
+}
+
+/* media queries */
+
+@media screen and (width <= 320px) {
+    .banner {
+        height: 20vh;
+    }
+
+    div.banner h1 {
+        line-height: 2vh;
+        width: auto;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (width <= 740px) {
+    .banner {
+        height: 40vh;
+    }
+
+    div.banner h1 {
+        line-height: 40vh;
+        width: auto;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main .cards {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        color: #000000;
+    }
+
+    .contact_and_social {
+        margin: 0;
+        padding: 30px 20px;
+        height: 40%;
+        width: 100%;
+        line-height: 30px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        /*justify-content: space-around;*/
+    }
+
+    .contact_and_social h2 {
+        margin: 0;
+        padding: 15px 20px;
+        text-align: center;
+        /*justify-content: space-around;*/
+    }
+}
+
+@media screen and (width >= 980px) {
+    .banner {
+        height: 20vh;
+    }
+
+    div.banner h1 {
+        line-height: 20vh;
+        width: auto;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (width >= 1300px) {
+    .banner {
+        height: 40vh;
+    }
+
+    div.banner h1 {
+        line-height: 30vh;
+        width: auto;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
 
